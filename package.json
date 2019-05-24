@@ -1,7 +1,7 @@
 {
   "name": "@macklinu/jest-environment-jsdom-fifteen",
   "description": "A modification of jest-environment-dom to support jsdom@15",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "repository": "macklinu/jest-environment-jsdom-fifteen",
   "license": "MIT",
   "main": "dist/index.js",
@@ -10,6 +10,7 @@
     "dist"
   ],
   "scripts": {
+    "prepublish": "yarn build",
     "build": "tsc -p tsconfig.json"
   },
   "dependencies": {
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "@types/jsdom": "^12.2.3",
+    "np": "^5.0.2",
     "typescript": "^3.4.5"
   },
   "engines": {
