@@ -1,6 +1,6 @@
 {
   "name": "@macklinu/jest-environment-jsdom-fifteen",
-  "description": "A modification of jest-environment-dom to support jsdom@15",
+  "description": "A modification of jest-environment-jsdom to support jsdom@15",
   "version": "0.2.0",
   "repository": "macklinu/jest-environment-jsdom-fifteen",
   "license": "MIT",
